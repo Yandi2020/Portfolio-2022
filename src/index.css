@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  padding: 0;
+  /* grey 50 */
+  background-color: #fafafa; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +14,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.project-img {
+  max-width: 100%;
+}
+
+.project-img:hover {
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 60px;
+  max-width: 100%;
+  /* lime 200 */
+  background-color: #e6ee9c;
+  padding: 11px;
+}
+
