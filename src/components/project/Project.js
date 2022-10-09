@@ -54,7 +54,7 @@ const Project = () => {
   };
 
   return (
-    <Container sx={{ margin: "60px auto" }}>
+    <Container sx={{ margin: "60px auto", maxWidth: "100%" }}>
       <Divider>
         <Chip
           label="Projects"
@@ -84,7 +84,7 @@ const Project = () => {
                 <Tooltip
                   TransitionComponent={Zoom}
                   title={<Typography children="Click to View" />}
-                  placement="left"
+                  placement="bottom"
                 >
                   <Paper elevation={5}>
                     <a href={project.url} target="_blank">
@@ -157,7 +157,7 @@ const Project = () => {
                 <Tooltip
                   TransitionComponent={Zoom}
                   title={<Typography children="Click to View" />}
-                  placement="right"
+                  placement="bottom"
                 >
                   <a href={project.url} target="_blank">
                     <motion.img

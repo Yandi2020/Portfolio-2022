@@ -35,7 +35,7 @@ const Skills = () => {
   const skills = [html, css, javascript, react, redux, mui, node, express, mongodb, mysql, postgres, docker, reactQuery, jest, git, github, sass, reactNative ];
 
   return (
-    <Container sx={{ margin: "50px auto" }}>
+    <Container sx={{ margin: "50px auto", maxWidth: "100%" }}>
       <Divider>
         <Chip
           label="Skill List"
